@@ -1,6 +1,6 @@
 #include <avr/pgmspace.h>
 // Lookup table to convert ascii characters in to keyboard scan codes
-// Format: most signifficant bit indicates if scan code should be sent with shift modifier
+// Format: most significant bit indicates if scan code should be sent with shift modifier
 // remaining 7 bits are to be used as scan code number.
 
 const unsigned char ascii_to_scan_code_table[] PROGMEM = {
